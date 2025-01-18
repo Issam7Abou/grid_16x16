@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+.btn_container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+}
+
+#btn {
+    background-color: black;
+    color: orange;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#grid_container {
+    display: grid;
+    height: 50%;
+    width: 50%;
+    gap: 4px;
+}
+
+.item {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;       
+    padding-top: 100%;
+}
